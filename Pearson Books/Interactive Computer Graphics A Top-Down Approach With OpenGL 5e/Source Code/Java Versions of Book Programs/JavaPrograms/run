@@ -1,0 +1,6 @@
+#!/bin/sh
+
+CLASSPATH=classes:jogl.jar
+LIBPATH=java.library.path=lib
+
+java -D$LIBPATH -cp $CLASSPATH $*
